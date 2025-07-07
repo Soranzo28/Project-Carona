@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build projeto",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "main.c",
+        "menu.c",
+        "-o",
+        "programa"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "close": false,
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
+}
