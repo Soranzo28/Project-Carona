@@ -57,5 +57,5 @@ int main(){
             printf("Comando não encontrado!\n");
             break;
     }
-
+    fclose(arquivo);
 }
